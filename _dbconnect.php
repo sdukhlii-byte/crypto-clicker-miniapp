@@ -1,10 +1,10 @@
 <?php
-$tg_token = "";
+$tg_token = "8804763645:AAEyfC7rj8_evcieKNLNO0BBIv9RNRgD-P0";
 
 $dbhost = 'localhost';
-$dbuser = '';
-$dbpassword = '';
-$dbname = '';
+$dbuser = 'root';
+$dbpassword = 'cTSUkErrJQfmgctzcAMLcGUhoiojZylQ';
+$dbname = 'railway';
     
 $link = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
 if (!$link) exit;
